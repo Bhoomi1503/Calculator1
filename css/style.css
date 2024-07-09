@@ -1,0 +1,44 @@
+body{
+    margin: 0;
+    padding: 0;
+    background-color: aquamarine;
+    
+}
+h1{
+    text-align: center;
+}
+.section{
+    height: 600px;
+  width: 500px;
+  border: 1px solid ;
+  background-color: white;
+ margin-left: 500px;
+ border-radius: 5px;
+
+}
+.container{
+    padding: 30px 60px 30px 30px;
+    
+}
+button{
+    background-color: antiquewhite;
+    height: 100px;
+    width: 100px;
+    border-radius: 10px;
+    margin: 5px;
+    font-size: 20px;
+   transition: transform 0.3s, box-shadow 0.3s;
+}
+.col-9 .btn1{
+    width: 310px;
+    height: 100px;
+}
+button:hover{
+    background-color: bisque;
+    transform: translate(1px);
+    box-shadow: 0px 15px 15px gray;
+    
+}
+.color{
+    background-color: red;
+}
